@@ -40,7 +40,9 @@
     left: 0px;
     top: 0px;
 }
-
+.link{
+    list-style: none;
+}
 .menu-nav {
     display: flex;
     flex-direction: row;
