@@ -46,7 +46,7 @@
 }
 .link{
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;   
 }
 .menu-nav {
     display: flex;
@@ -190,8 +190,12 @@ width: 44px;
     top: 24px;
     text-decoration: none;
     list-style-type: none;
+    color: #434455;     
 }
 
+.mail-text{
+    color: #434455;
+}
 .tel {
     position: absolute;
     width: 151px;
@@ -200,6 +204,10 @@ width: 44px;
     top: 24px;
     text-decoration: none;
     list-style-type: none;
+    color: #434455;
+}
+.tel-text{
+    color: #434455;
 }
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
     color:#404bbf
@@ -271,6 +279,7 @@ width: 44px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    
 }
 
 .section-features {
@@ -333,7 +342,12 @@ width: 44px;
     
         border: 1px solid #E7E9FC;
         border-radius: 4px
-        
+}
+.nav-button:hover {
+    background-color: #404BBF;
+}
+.nav-button:focus{
+background-color: #404BBF;;
 }
 .nav-button-text{
 width: 68px;
