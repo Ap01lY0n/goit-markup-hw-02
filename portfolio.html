@@ -15,17 +15,17 @@
 <body class="body">
     <header class="header">
         <nav class="menu-nav">
-            <a href="./index.html" class="logo"><span class="web">Web</span><span class="studio">studio</span></a>
-            <ul>
-                <li class="nav-menu-li"> <a href="" class="link">Studio</a></li>
-                <li class="nav-menu-li"> <a href="" class="link">Portfolio</a></li>
-                <li class="nav-menu-li"> <a href="" class="link">Contacts</a></li>
+            <a href="" class="logo"><span class="web">Web</span><span class="studio">studio</span></a>
+            <ul class="nav-menu-ul">
+                <li class="nav-menu-li"> <a href="./index.html" class="link nav-menu-li-cat">Studio</a></li>
+                <li class="nav-menu-li"> <a href="" class="link nav-menu-li-cat">Portfolio</a></li>
+                <li class="nav-menu-li"> <a href="" class="link nav-menu-li-cat">Contacts</a></li>
             </ul>
         </nav>
         <address>
             <ul>
                 <li class="mail"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li class="tel"><a href="tel:+110001111111" class="addres-text">+11 (000) 111-11-11</a></li>        
+                <li class="tel"><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>        
             </ul>
         </address>
         </header>
@@ -33,20 +33,32 @@
             <section>
                 <h1 hidden>Portfolio</h1>
                 <ul class="list">
-                    <li><button class="nav-button">All</button></li>
-                    <li><button class="nav-button">Web site</button></li>
-                    <li><button class="nav-button">App</button></li>
-                    <li><button class="nav-button">Design</button></li>
-                    <li><button class="nav-button">Marketing</button></li>
+                    <li><button class="nav-button-active"><a class="nav-button-text-active">All</a></button></li>
+                    <li><button class="nav-button"><a class="nav-button-text">Web site</a></button></li>
+                    <li><button class="nav-button"><a class="nav-button-text">App</a></button></li>
+                    <li><button class="nav-button"><a class="nav-button-text">Design</a></button></li>
+                    <li><button class="nav-button"><a class="nav-button-text">Marketing</a></button></li>
                 </ul>
-                <ul class="portfolio-list list">
-                    <a class="portfolio link">
-                        <li class="portfolio-item list">
+                <ul class="portfolio-list">
+                        <li class="portfolio-item portfolio-active">
+                            <a class="portfolio link">
                             <img src="./images/img (4).png" alt="Portfolio" width="360px">
                             <h2 class="portfolio-title">Banking App Interface Concept</h2>
-                            <p class="portfolio-text"></p>
+                            <p class="portfolio-text">App</p></a>
                         </li>
-                    </a>
+                        <li class="portfolio-item">
+                            <a class="portfolio link">
+                                <img src="./images/img (5).png" alt="Portfolio" width="360px">
+                                <h2 class="portfolio-title">Cashless Payment</h2>
+                                <p class="portfolio-text">Marketing</p></a>
+                        </li>
+                        <li class="portfolio-item">
+                            <a class="portfolio link">
+                                <img src="./images/img (6).png" alt="Portfolio" width="360px">
+                                <h2 class="portfolio-title">Meditation app</h2>
+                                <p class="portfolio-text">App</p></a>       
+                            </a>
+                        </li>
                 </ul>
             </section>
         </main>
