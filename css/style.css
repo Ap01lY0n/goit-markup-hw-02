@@ -4,7 +4,7 @@
   |============================
 */
 :root {
-    --font-primary: "Roboto", sans-serif;
+    --font-primary: "Roboto", "sans-serif";
     --body-text: #434455;
     --background-color: #ffffff;
     --color-title-h2-h3-darkbg: #2e2f42;
@@ -19,7 +19,7 @@
   |============================
 */
 .body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "sans-serif";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
