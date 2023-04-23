@@ -19,13 +19,14 @@
   |============================
 */
 .body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    background: #E7E9FC;
+    background-color: #FFFFFF;
+    color: #434455
 }
 
 /**
@@ -41,11 +42,10 @@
     top: 0px;
     border-bottom: 1px solid #E7E9FC;
     flex: none;
-        order: 0;
-        flex-grow: 0;
+    order: 0;
+    flex-grow: 0;
 }
 .link{
-    list-style: none;
     text-decoration: none;   
 }
 .menu-nav {
@@ -60,6 +60,9 @@
     height: 24px;
     left: 347px;
     top: 24px;
+}
+.list{
+    list-style: none;
 }
 .nav-menu-ul{
     display: flex;
@@ -95,7 +98,7 @@
     list-style: none;
 }
 .nav-menu-li:focus {
-    color: ffffff;
+    color: #ffffff;
     background-color: 404bbf;
     list-style: none;
 }
@@ -121,20 +124,18 @@
 
 .logo {
     width: 44px;
-        height: 21px;
-    
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-        /* identical to box height, or 117% */
-    
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    height: 21px;  
+    font-family: "Raleway", "sans-serif";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-decoration: none;
+    color:(--color-partlogo-buttons);
 }
 
 .web {
@@ -167,19 +168,17 @@ width: 44px;
 
 .studio {
     width: 44px;
-        height: 21px;
-    
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-        /* identical to box height, or 117% */
-    
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    height: 21px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:(--color-title-h2-h3-darkbg);
 }
 
 .mail {
@@ -192,10 +191,6 @@ width: 44px;
     list-style-type: none;
     color: #434455;     
 }
-
-.mail-text{
-    color: #434455;
-}
 .tel {
     position: absolute;
     width: 151px;
@@ -206,9 +201,7 @@ width: 44px;
     list-style-type: none;
     color: #434455;
 }
-.tel-text{
-    color: #434455;
-}
+
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
     color:#404bbf
 }
