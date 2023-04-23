@@ -66,19 +66,20 @@
 }
 .nav-menu-ul{
     display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 40px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
     
-        position: absolute;
-        width: 261px;
-        height: 24px;
-        left: 347px;
-        top: 24px;
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;
 }
 
 .nav-menu-li {
+    display: list-item;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -86,7 +87,7 @@
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #4d5ae5;
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
     cursor: pointer;
     flex-direction: row;
     text-decoration: none;
@@ -99,7 +100,7 @@
 }
 .nav-menu-li:focus {
     color: #ffffff;
-    background-color: 404bbf;
+    background-color: #404bbf;
     list-style: none;
 }
 .nav-menu-li-cat{
@@ -139,23 +140,17 @@
 }
 
 .web {
-width: 44px;
+    width: 44px;
     height: 21px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height, or 117% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    /* IRIS */
-
     color: #4D5AE5;
 
 
@@ -188,8 +183,13 @@ width: 44px;
     left: 940px;
     top: 24px;
     text-decoration: none;
-    list-style-type: none;
-    color: #434455;     
+    list-style-type: none;    
+}
+.mail-text{
+    color: #434455;
+}
+.tel-text{
+    color: #434455;
 }
 .tel {
     position: absolute;
@@ -199,7 +199,6 @@ width: 44px;
     top: 24px;
     text-decoration: none;
     list-style-type: none;
-    color: #434455;
 }
 
 .mail:hover, .mail:focus, .tel:hover, .tel:focus{
@@ -212,33 +211,46 @@ width: 44px;
   |============================
 */
 .hero {
-    background-color: #2E2F42;
+    position: absolute;
     width: 1440px;
     height: 600px;
+    left: 0px;
+    top: 72px;
+    background: #2E2F42;  
 }
+.box{
 
+}
 .hero-h1 {
+    position: absolute;
     width: 496px;
     height: 120px;
     left: 472px;
     top: 260px;
+    
+    /* Header 1 */
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
+    /* or 107% */
+    
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    border: 1px solid #000000;
+    color: #ffffff;
 }
 .hero-background{
     position: absolute;
-        width: 1440px;
-        height: 600px;
-        left: 0px;
-        top: 69px;
-        background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    
+    /* NAVY BLUE */
+    
+    background: #2E2F42;
 }
 
 .button {
@@ -285,7 +297,6 @@ width: 44px;
 }
 
 .features {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
@@ -305,20 +316,145 @@ width: 44px;
 }
 
 .section-2 {
-
+    width: 1128px;
+    height: 412px;
+    left: 156px;
+    top: 1016px;
 }
 
 .section-2-h2 {
-
+    position: absolute;
+    width: 323px;
+    height: 40px;
+    left: 559px;
+    top: 1016px;
 }
 
 .section-2-images {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 156px;
+    top: 1128px;
+}
+.section-2-images-1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
 
+position: absolute;
+width: 360px;
+height: 300px;
+left: 156px;
+top: 1128px;
+}
+.section-2-images-2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 360px;
+height: 300px;
+left: 540px;
+top: 1128px;
+}
+.section-2-images-3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 360px;
+height: 300px;
+left: 924px;
+top: 1128px;
 }
 .section-our-team {
+    position: absolute;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1548px;
+    background-color: var( --color-resst);
+}
+.our-team-image-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1780px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 
 }
-.our-team-images {
+.our-team-image-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 444px;
+    top: 1780px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+
+}
+.our-team-image-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 732px;
+    top: 1780px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+
+}
+.our-team-image-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 1020px;
+    top: 1780px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 
 }
 .list{
@@ -391,12 +527,11 @@ width: 44px;
     background: #2E2F42;
 }
 .footer {
-    position: absolute;
     width: 1440px;
     height: 312px;
     left: 0px;
-    top: 1764px;
-    background: #2E2F42;
+    top: 2280px;
+    
 }
 
 .footer-text {
