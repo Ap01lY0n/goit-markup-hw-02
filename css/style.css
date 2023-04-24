@@ -6,7 +6,7 @@
 :root {
     --font-primary: "Roboto", "sans-serif";
     --body-text: #434455;
-    --background-color: #ffffff;
+    --background-color: #FFFFFF;
     --color-title-h2-h3-darkbg: #2e2f42;
     --color-hover-focus: #404bbf;
     --color-partlogo-buttons: #4d5ae5;
@@ -105,28 +105,13 @@
 }
 .nav-menu-li-cat{
     width: 48px;
-        height: 24px;
-    
-        /* Body Medium */
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-    
-        letter-spacing: 0.02em;
-    
-        /* NAVY BLUE */
-    
-        color: #2E2F42;
+    height: 24px;
 }
 
 .logo {
     width: 44px;
     height: 21px;  
-    font-family: "Raleway", "sans-serif";
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -217,9 +202,6 @@
     left: 0px;
     top: 72px;
     background: #2E2F42;  
-}
-.box{
-
 }
 .hero-h1 {
     position: absolute;
