@@ -19,14 +19,14 @@
   |============================
 */
 .body {
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     background-color:var(--background-color);
-    color: #434455;
+    color: var(--body-text);
 }
 
 /**
@@ -117,7 +117,9 @@
     font-size: 18px;
     line-height: 1.17px;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    padding:0px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -137,10 +139,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -176,6 +174,9 @@
 .tel-text{
     color: #434455;
 }
+.mail:hover, .mail:focus, .tel:hover, .tel:focus{
+    color:#404bbf
+}
 .tel {
     position: absolute;
     width: 151px;
@@ -186,9 +187,7 @@
     list-style-type: none;
 }
 
-.mail:hover, .mail:focus, .tel:hover, .tel:focus{
-    color:#404bbf
-}
+
 
 /**
   |============================
