@@ -369,6 +369,13 @@ top: 1128px;
     top: 1548px;
     background-color: var( --color-resst);
 }
+.our-team-h2{
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .our-team-image-1 {
     display: flex;
     flex-direction: column;
@@ -560,4 +567,8 @@ border-radius: 0px 0px 4px 4px;
         height: 24px;
         left: 156px;
         top: 2380px;
+        color:var(--color-partlogo-buttons);
+}
+.footer-logo-studio{
+    color:#f4f4fd;
 }
