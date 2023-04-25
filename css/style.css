@@ -82,7 +82,7 @@
 
 .nav-menu-li {
     display: list-item;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -103,10 +103,7 @@
     color: #ffffff;
     background-color: #404bbf;
 }
-.nav-menu-li-cat{
-    width: 48px;
-    height: 24px;
-}
+
 
 .logo {
     width: 44px;
@@ -129,9 +126,10 @@
 .web {
     width: 44px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
+    line-height: 1.17   ;
     font-size: 18px;
     line-height: 21px;
     display: flex;
