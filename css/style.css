@@ -73,7 +73,6 @@
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-    
     position: absolute;
     width: 261px;
     height: 24px;
@@ -88,8 +87,8 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.04em;
-    color: #4d5ae5;
+    letter-spacing: 0.02em;
+    color: var(--color-title-h2-h3-darkbg);
     background-color: #FFFFFF;
     cursor: pointer;
     flex-direction: row;
@@ -99,12 +98,10 @@
 .hover:hover{
     color: #ffffff;
     background-color: #404bbf;
-    list-style: none;
 }
 .hover:focus {
     color: #ffffff;
     background-color: #404bbf;
-    list-style: none;
 }
 .nav-menu-li-cat{
     width: 48px;
@@ -114,7 +111,7 @@
 .logo {
     width: 44px;
     height: 21px;  
-    font-family: "Raleway", 'sans-serif';
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
