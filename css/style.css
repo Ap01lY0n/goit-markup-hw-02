@@ -64,6 +64,9 @@
 .list{
     list-style: none;
 }
+.address{
+    font-style:normal;
+}
 .nav-menu-ul{
     display: flex;
     flex-direction: row;
@@ -93,12 +96,12 @@
     text-decoration: none;
     list-style: none;
 }
-.nav-menu-li:hover{
-    color: ffffff;
+.hover:hover{
+    color: #ffffff;
     background-color: #404bbf;
     list-style: none;
 }
-.nav-menu-li:focus {
+.hover:focus {
     color: #ffffff;
     background-color: #404bbf;
     list-style: none;
