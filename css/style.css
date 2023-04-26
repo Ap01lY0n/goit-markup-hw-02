@@ -71,16 +71,13 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
     width: 261px;
     height: 24px;
     left: 347px;
     top: 24px;
 }
 
-.nav-menu-li {
+.nav-menu-li{
     display: list-item;
     font-family: "Roboto";
     font-style: normal;
@@ -95,16 +92,16 @@
     text-decoration: none;
     list-style: none;
 }
-.nav-menu-li:hover{
+.nav-menu-li:focus{
     background-color: #404bbf;
 }
-.nav-menu-li:focus {
+.nav-menu-li:hover{
     background-color: #404bbf;
 }
 .address-text:hover{
     background-color: #404bbf;
 }
-.address-text:focus {
+.address-text:focus{
     background-color: #404bbf;
 }
 
