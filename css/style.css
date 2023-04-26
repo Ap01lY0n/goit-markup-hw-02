@@ -101,14 +101,13 @@
 .nav-menu-li:focus {
     background-color: #404bbf;
 }
-.hover:hover{
-    color: #ffffff;
+.address-text:hover{
     background-color: #404bbf;
 }
-.hover:focus {
-    color: #ffffff;
+.address-text:focus {
     background-color: #404bbf;
 }
+
 
 
 .logo {
