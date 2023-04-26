@@ -464,11 +464,11 @@ height: 300px;
     order: 0;
     flex-grow: 0;
 }
-.nav-button:hover {
+.nav-button-text:hover {
     color: #FFFFFF;
 }
 
-.nav-button:focus {
+.nav-button-text:focus {
     color: #FFFFFF;
 }
 .portfolio-title{
