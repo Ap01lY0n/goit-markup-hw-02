@@ -95,6 +95,12 @@
     text-decoration: none;
     list-style: none;
 }
+.nav-menu-li:hover{
+    background-color: #404bbf;
+}
+.nav-menu-li:focus {
+    background-color: #404bbf;
+}
 .hover:hover{
     color: #ffffff;
     background-color: #404bbf;
