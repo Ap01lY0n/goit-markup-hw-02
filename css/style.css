@@ -416,7 +416,6 @@ height: 300px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding: 0px;
         gap: 24px;
         list-style: none;
 }
@@ -494,6 +493,7 @@ height: 300px;
     background: #2E2F42; 
 }
 .footer {
+    position: absolute;
     width: 1440px;
     height: 312px;
     left: 0px;
@@ -502,11 +502,8 @@ height: 300px;
 }
 
 .footer-text {
-    position: absolute;
         width: 264px;
-        height: 72px;
-        left: 156px;
-        top: 2420px;  
+        height: 72px; 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -516,15 +513,11 @@ height: 300px;
         color: #F4F4FD;
 }
 .footer-logo{
-    display: flex;
         flex-direction: row;
         align-items: center;
         padding: 0px;
-        position: absolute;
         width: 115px;
         height: 24px;
-        left: 156px;
-        top: 2380px;
         color:var(--color-partlogo-buttons);
 }
 .footer-logo-studio{
