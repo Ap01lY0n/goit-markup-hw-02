@@ -3,7 +3,7 @@
   | root
   |============================
 */
-:root {
+:root{
     --font-primary: "Roboto", "sans-serif";
     --body-text: #434455;
     --background-color: #FFFFFF;
@@ -94,13 +94,13 @@
 }
 .nav-menu-li:focus,
 .nav-menu-li:hover{
-    background-color: #404bbf;
+    color: #404bbf;
 }
 .address-text:hover{
-    background-color: #404bbf;
+    color: #404bbf;
 }
 .address-text:focus{
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 
@@ -375,7 +375,7 @@ height: 300px;
     height: 732px;
     left: 0px;
     top: 1548px;
-    background-color: var( --color-resst);
+    background-color: var(--color-resst);
 }
 .our-team-h{
     font-size: 36px;
@@ -390,7 +390,7 @@ height: 300px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--body-text  );
+    color: var(--body-text);
 }
 .our-team-image{
     display: flex;
