@@ -411,7 +411,7 @@ height: 300px;
     color: var(--color-title-h2-h3-darkbg);
 }
 .list{
-    display: flex;
+        display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 0px;
