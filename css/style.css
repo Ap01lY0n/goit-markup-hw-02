@@ -376,11 +376,11 @@ height: 300px;
     background-color: var(--color-resst);
 }
 .our-team-h{
-    font-size: 36px;
+    font-size: 20px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;
-    line-height: 1.11;
+    line-height: 1.2;
     text-transform: capitalize;
     color: var(--color-title-h2-h3-darkbg);
 }
