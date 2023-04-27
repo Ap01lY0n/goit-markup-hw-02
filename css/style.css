@@ -35,7 +35,6 @@
   |============================
 */
 .header {
-    position: absolute;
     width: 1440px;
     height: 72px;
     left: 0px;
@@ -55,7 +54,6 @@
     padding: 0px;
     gap: 40px;
 
-    position: absolute;
     width: 261px;
     height: 24px;
     left: 347px;
