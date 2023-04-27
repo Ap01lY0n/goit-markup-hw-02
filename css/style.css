@@ -166,12 +166,12 @@
     color: var(--body-text);
 }
 
-.address-contacts:hover{
-    color:#404bbf
-}
+.address-contacts:hover,
 .address-contacts:focus{
-    color: #404bbf
+    color:#404bbf
+
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
