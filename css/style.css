@@ -216,7 +216,7 @@ body {
 }
 
 .button-text {
-    font-family: 'Roboto';
+    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -291,11 +291,14 @@ body {
 }
 
 .section-our-team {
-    position: absolute;
+
 
     background-color: var(--color-resst);
 }
-
+.our-team-images{
+    list-style: none;
+    text-decoration: none;
+}
 .our-team-h {
     font-size: 36px;
     line-height: 40px;
@@ -324,24 +327,13 @@ body {
     color: var(--body-text);
 }
 
-.our-team-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-    width: 264px;
-    height: 380px;
+.our-team-image {    
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     list-style: none;
 }
 
@@ -373,13 +365,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
 
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--color-partlogo-buttons);
     cursor: pointer;
-
 }
 
 .portfolio-title {
